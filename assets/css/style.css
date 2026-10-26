@@ -1351,60 +1351,6 @@ h1, h2, h3, h4, h5, p {
     color: #9aaba5;
 }
 
-.reservation-qr-card {
-    display: grid;
-    justify-items: center;
-    gap: 12px;
-    max-width: 560px;
-    margin: 0 auto;
-    padding: 32px;
-    text-align: center;
-}
-
-.reservation-qr {
-    display: grid;
-    min-width: 280px;
-    min-height: 280px;
-    place-items: center;
-    padding: 12px;
-    border: 1px solid var(--border);
-    border-radius: 14px;
-    background: #ffffff;
-}
-
-.reservation-qr-copy h2 {
-    margin: 4px 0 6px;
-    font-size: 20px;
-}
-
-.reservation-qr-copy p {
-    margin-bottom: 8px;
-    color: var(--muted);
-}
-
-.reservation-qr-copy span {
-    overflow-wrap: anywhere;
-}
-
-@media print {
-    body * {
-        visibility: hidden !important;
-    }
-
-    .reservation-qr-card,
-    .reservation-qr-card * {
-        visibility: visible !important;
-    }
-
-    .reservation-qr-card {
-        position: absolute;
-        inset: 0;
-        max-width: none;
-        border: 0;
-        box-shadow: none;
-    }
-}
-
 .table-wrap {
     width: 100%;
     overflow-x: auto;

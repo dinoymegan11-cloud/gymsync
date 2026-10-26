@@ -138,7 +138,6 @@ $navItem = static function (string $key, string $label, string $iconName, string
                 $navItem('admin-reservations', 'Reservation Requests', 'check-square', 'admin/reservations.php', $adminPendingCount, 'nav-badge-warn');
                 $navItem('admin-blocks', 'Maintenance & Blocks', 'wrench', 'admin/blocks.php');
                 $navItem('admin-reports', 'Reports & Analytics', 'chart', 'admin/reports.php');
-                $navItem('reservation-qr', 'Reservation QR Code', 'calendar', 'reservation_qr.php');
                 ?>
             </div>
             <?php endif; ?>
